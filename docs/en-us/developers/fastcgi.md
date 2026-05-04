@@ -1,13 +1,21 @@
-# What is FastCGI Cache?
+# FastCGI Cache
 
-FastCGI Cache is a server-side caching mechanism at the NGINX level. Instead of running PHP and database queries on every request, NGINX stores the fully rendered HTML of a page after the first visit.
+FastCGI Cache slaat de output van PHP-pagina's op zodat herhaalde requests direct vanaf NGINX worden geserveerd, zonder PHP of database opnieuw aan te roepen.
 
-On subsequent visits, NGINX serves that cached HTML directly — bypassing PHP-FPM and the database entirely. The result: drastically lower server load, faster response times, and the ability to handle far more concurrent visitors.
-
-<img width="1296" height="748" alt="image" src="https://github.com/user-attachments/assets/ca7fdbfb-a17d-47b5-b875-d5944b880544" />
+## Hoe het werkt
 
 <br>
 
+<img width="1335" height="763" alt="image" src="https://github.com/user-attachments/assets/9d431971-ace7-4fc7-a53c-9d5dbbc2fc57" />
+
+<br>
+
+::: tip Waarom is dit snel?
+Een cache HIT levert pagina's binnen milliseconden — geen PHP execution, geen database queries. Voor sites met hoge traffic kan dit het verschil zijn tussen een trage en een razendsnelle ervaring.
+:::
+
+
+<br>
 ## Enable FastCGI Cache
 
 1. Go to **Developer Tools**.
