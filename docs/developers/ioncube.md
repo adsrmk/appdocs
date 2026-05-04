@@ -20,4 +20,6 @@ Je kunt de ionCube Loader inschakelen via het paneel **Ontwikkelaarstools**.
 ionCube wordt <b>niet ondersteund op PHP 8.0</b>, omdat dit als een overgangsversie werd behandeld. Het werkt wel op <b>PHP 8.1 en alle latere versies</b>.
 </div>
 
-<img width="846" height="178" alt="image" src="https://github.com/user-attachments/assets/c471b1a7-4ab0-49b4-a373-71531b5e3f44" />
+<br>
+
+<img width="1326" height="196" alt="image" src="https://github.com/user-attachments/assets/d2946d9b-ec31-4ea4-99be-9d81b2dd4550" />
