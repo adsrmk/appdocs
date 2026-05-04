@@ -14,7 +14,11 @@ WordPress users are different from <b>collaborative users</b> in OS Cloud. WordP
 - **Edit details** — To update an existing user (e.g. username or email), click the **kebab menu** (three vertical dots) on the right of the user row and select **Edit**.
 - **Delete access** — Permanently remove a user to revoke their access to the WordPress back-end.
 
-<img width="819" height="144" alt="image" src="https://github.com/user-attachments/assets/7b349df6-3724-4880-b4bc-cad06ee66ec8" />
+<br>
+
+<img width="1338" height="375" alt="image" src="https://github.com/user-attachments/assets/98341a69-4ab7-47df-8fbd-7ef7e57e38af" />
+
+<br>
 
 <div class="warning custom-block" style="padding-top: 8px">
 Deleting a user is <b>irreversible</b>. Always create a backup first — especially if the user owns published content. Removing the primary admin account can also break parts of the site if associated content is reassigned incorrectly.
