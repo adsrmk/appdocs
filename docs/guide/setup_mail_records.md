@@ -44,7 +44,11 @@ OS Cloud gebruikt [Mailgun](https://www.mailgun.com/) voor het verzenden en ontv
 4. Scrol naar **E-mailauthenticatie** en zet **DKIM** op **Aan**.
 5. Gebruik je OS Cloud-nameservers? Wacht dan tot de validatie is voltooid.
 
-<img width="870" height="213" alt="image" src="https://github.com/user-attachments/assets/d62f24e2-95d8-43e5-ac04-67ff99be261d" />
+<br>
+
+<img width="1338" height="229" alt="image" src="https://github.com/user-attachments/assets/e8651eba-8efa-470e-85a3-d0918575522a" />
+
+<br>
 
 <div class="info custom-block" style="padding-top: 8px">
 Wordt je DNS elders gehost? Volg dan de instructies op het scherm en plak de gegenereerde DKIM-sleutel in je DNS-provider. Het record ziet er ongeveer zo uit:
