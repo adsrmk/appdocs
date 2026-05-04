@@ -44,7 +44,7 @@ Als je deze directories wijzigt, moet je de daadwerkelijke mappen op de schijf o
 
 <br>
 
-<img width="1062" height="206" alt="image" src="https://github.com/user-attachments/assets/ede09d61-c6db-4697-9a1c-c4f0628b2b41" />
+<img width="1062" height="206" alt="image" src="https://github.com/user-attachments/assets/bb0ed1a9-9ed1-4aa1-abd7-16394eec0cda" />
 
 <br>
 
