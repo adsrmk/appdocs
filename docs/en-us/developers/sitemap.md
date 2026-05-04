@@ -4,7 +4,8 @@ An **XML sitemap** is a file that lists all the important URLs on your website, 
 
 Since WordPress 5.5, the platform automatically generates a basic sitemap — but developers often need to customise the output for optimal SEO performance.
 
-<img width="997" height="559" alt="image" src="https://github.com/user-attachments/assets/7d8fd573-efb0-4030-a3df-7221c93b3723" />
+<br>
+<img width="1124" height="325" alt="image" src="https://github.com/user-attachments/assets/8f393fcd-dee6-49ec-99b8-d7cf31e4d11f" />
 
 <br>
 
