@@ -21,17 +21,21 @@
 
 Zodra Redis is ingeschakeld, draait het automatisch in je PHP-container.
 
-<img width="805" height="174" alt="image" src="https://github.com/user-attachments/assets/7928cc33-b0b7-427d-9b48-a3816489d2cb" />
+<br>
+
+<img width="1316" height="517" alt="image" src="https://github.com/user-attachments/assets/e922cf62-ee73-4e8b-b29b-3b49ab922043" />
 
 <br>
 
 ## Redis koppelen aan WordPress
 
-Draait je site op WordPress? Dan is er nog één stap nodig.
-
 1. Log in op WordPress, ga naar **Plugins**, zoek op **Redis Object Cache** en installeer de plugin.
 
-<img width="828" height="375" alt="image" src="https://github.com/user-attachments/assets/a2632e91-fb09-420b-9739-19bc4eaa6638" />
+<br>
+
+<img width="565" height="274" alt="image" src="https://github.com/user-attachments/assets/224568ed-ba77-4e00-9ae7-4cc3531720de" />
+
+<br>
 
 2. Ga in WordPress naar **Instellingen → Redis**.
 3. Klik op **Object Cache inschakelen**.
