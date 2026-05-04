@@ -71,7 +71,8 @@ Optimising your images is essential for modern websites. Heavy, uncompressed ima
 
 WordPress offers plugins like **EWWW Image Optimizer**, **Smush**, **ShortPixel**, and **Imagify** — but we prefer to compress images **before** they ever reach the database. Tools like [TinyPNG↗](https://tinypng.com/) and [Squoosh↗](https://squoosh.app/) significantly reduce file sizes while preserving visual quality.
 
-<img width="730" height="483" alt="image" src="https://github.com/user-attachments/assets/7ef3f41c-0861-45bf-a4df-2a02826fc92b" />
+<br>
+<img width="1036" height="557" alt="image" src="https://github.com/user-attachments/assets/bbc5c7db-1447-4513-9fad-8bcc419ebd6b" />
 
 <br>
 
