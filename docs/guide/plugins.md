@@ -18,4 +18,3 @@ Elke plugin krijgt een statusbadge die de huidige status laat zien:
 - **Activeren / Deactiveren** — Schakel de plugin in of uit.
 - **Verwijderen** — Verwijder de pluginbestanden definitief van je site.
 - **Auto-updates inschakelen** — Werk de plugin automatisch bij zodra de ontwikkelaar een nieuwe versie uitbrengt. Is een plugin verouderd? Dan verschijnt er een melding die aangeeft dat er een nieuwe versie beschikbaar is.
-
