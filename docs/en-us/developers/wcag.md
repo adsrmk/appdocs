@@ -41,6 +41,3 @@ WCAG defines specific, testable success criteria across three levels of conforma
 
 <br>
 
-<div class="info custom-block" style="padding-top: 8px">
-For our development work, all sites should aim for <b>WCAG 2.1 Level AA</b> conformance.
-</div>
