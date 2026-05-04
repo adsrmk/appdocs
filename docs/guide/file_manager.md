@@ -20,7 +20,8 @@ Je kunt op twee manieren bestanden toevoegen:
 - **Sleep en zet ze neer** in de Bestandsbeheerder, of
 - Klik op de knop **Uploaden** rechtsboven.
 
-<img width="1263" height="761" alt="image" src="https://github.com/user-attachments/assets/7c31fc8d-0945-4ed4-9a5e-7432d8668c66" />
+<img width="689" height="179" alt="image" src="https://github.com/user-attachments/assets/0d2f3194-7519-4e86-9bbf-d115726baa61" />
+
 
 <br>
 
@@ -28,4 +29,5 @@ Je kunt op twee manieren bestanden toevoegen:
 
 Klik op het **kebab-menu** (drie verticale stippen) naast een bestand voor extra acties: **Rechten bewerken**, **Verwijderen**, **Comprimeren**, **Downloaden** en meer.
 
-<img width="929" height="577" alt="image" src="https://github.com/user-attachments/assets/13682603-2573-473f-920d-baac024253f0" />
+<img width="1027" height="495" alt="image" src="https://github.com/user-attachments/assets/45ced3d0-9d29-4e36-97f7-b17a3fe68cb3" />
+
