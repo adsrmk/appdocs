@@ -44,11 +44,19 @@ Als de databasegegevens kloppen, ligt de oorzaak meestal bij het wachtwoord. Res
 1. Ga terug naar het onderdeel **Databasegebruikers**.
 2. Selecteer de gebruiker waarvan je het wachtwoord wilt wijzigen.
 
-<img width="1790" height="670" alt="image" src="https://github.com/user-attachments/assets/3908df5b-f0fc-4f32-90e1-2f1f549ae5b8" />
+<br>
+
+<img width="1342" height="300" alt="image" src="https://github.com/user-attachments/assets/19f2f174-bd70-4215-9a4f-18e87a8fc2a4" />\
+
+<br>
 
 3. Klik op **Resetten** rechtsboven in het blok en voer een nieuw wachtwoord in.
 
-<img width="1810" height="910" alt="image" src="https://github.com/user-attachments/assets/fa55452d-5198-4051-a50a-467b26ff512d" />
+<br>
+
+<img width="617" height="369" alt="image" src="https://github.com/user-attachments/assets/7885a7ed-ed3f-401f-bce3-e977c86c0c78" />
+
+<br>
 
 4. Klik op **Wachtwoord wijzigen** om te bevestigen. Werk daarna de waarde van `DB_PASSWORD` in `wp-config.php` bij met het nieuwe wachtwoord.
 
@@ -56,16 +64,19 @@ Als de databasegegevens kloppen, ligt de oorzaak meestal bij het wachtwoord. Res
 
 ## 4. Zorg dat de MySQL-gebruiker de juiste rechten heeft
 
-1. Ga terug naar het onderdeel **Databasegebruikers**.
-2. Selecteer de gebruiker waarvan je de rechten wilt aanpassen.
-3. Scrol omlaag naar het onderdeel **Database-toegang**.
+1. Ga terug naar de **Database**.
+2. Selecteer de gebruiker waarvan je de rechten wilt aanpassen onder **database users**
 4. Klik op het kebab-menu (drie verticale stippen) rechts en kies **Rechten bewerken**.
 
 <img width="1788" height="458" alt="image" src="https://github.com/user-attachments/assets/43bbb6bf-ba83-4a35-9a98-5d73c81d86d4" />
 
 5. Vink het selectievakje **Alle databaserechten** aan.
 
-<img width="1352" height="586" alt="image" src="https://github.com/user-attachments/assets/66b68a5e-740e-4959-9642-641d6cee5ae9" />
+<br>
+
+<img width="617" height="245" alt="image" src="https://github.com/user-attachments/assets/ba03a710-9e83-411d-9c91-ced13a9b9fca" />
+
+<br>
 
 6. Sla je wijzigingen op en sluit het scherm.
 
