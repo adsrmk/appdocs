@@ -4,7 +4,9 @@ Semantische HTML betekent dat je HTML-elementen gebruikt op basis van hun **doel
 
 Dat resulteert in code die voor ontwikkelaars beter leesbaar is, door zoekmachines beter wordt begrepen (SEO), en — het allerbelangrijkst — veel toegankelijker is voor mensen die gebruikmaken van hulptechnologieën zoals screenreaders.
 
-<img width="670" height="412" alt="image" src="https://github.com/user-attachments/assets/fd76892c-274a-41b1-a0e3-dd304d433f50" />
+<br>
+
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/2b6b129b-5855-410b-907b-0a8cb3b76ff3" />
 
 <br>
 
