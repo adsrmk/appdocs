@@ -40,7 +40,3 @@ WCAG definieert specifieke, testbare succescriteria, verdeeld over drie niveaus 
 | **AAA** *(hoogste)* | Het strengste niveau. Biedt de beste ervaring voor de breedste gebruikersgroep, maar is niet altijd haalbaar voor alle soorten content. Streef ernaar waar mogelijk — maar maak het geen algemene eis. |
 
 <br>
-
-<div class="info custom-block" style="padding-top: 8px">
-Voor ons ontwikkelwerk moet elke site streven naar conformiteit op <b>WCAG 2.1 niveau AA</b>.
-</div>
