@@ -1,4 +1,5 @@
 import { defineConfig, type DefaultTheme } from 'vitepress'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 
 // ─── Sidebar Guide ──────────────────────────────────────────────────────────
 
