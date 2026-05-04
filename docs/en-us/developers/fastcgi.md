@@ -23,7 +23,9 @@ Een cache HIT levert pagina's binnen milliseconden — geen PHP execution, geen 
 
 > If you have multiple domains, select the correct one from the dropdown first.
 
-<img width="806" height="310" alt="image" src="https://github.com/user-attachments/assets/63f3b2d5-4d25-4ab8-acca-88434075d383" />
+<br>
+
+<img width="1316" height="304" alt="image" src="https://github.com/user-attachments/assets/d482658f-730f-4845-a749-c9414807434d" />
 
 <br>
 
