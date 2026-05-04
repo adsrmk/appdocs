@@ -66,7 +66,9 @@ To stop WordPress from creating folders like `/2026/03/` inside `uploads`:
 3. Disable **Organize my uploads into month- and year-based folders**.
 4. Save changes.
 
-<img width="552" height="130" alt="image" src="https://github.com/user-attachments/assets/7f4105aa-ab8a-4d8f-88d8-4e9ac4376e0a" />
+<br>
+
+<img width="589" height="208" alt="image" src="https://github.com/user-attachments/assets/cbc7c590-c504-4abd-b0f4-e5b3170c50a2" />
 
 <br>
 
