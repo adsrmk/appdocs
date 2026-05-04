@@ -51,4 +51,8 @@ Do <b>not</b> apply <code>444</code> to the <code>wp-includes</code> directory i
 
 You can change permissions on any file or folder by **right-clicking** it and selecting **Permissions** from the menu.
 
-<img width="935" height="491" alt="image" src="https://github.com/user-attachments/assets/30334757-0643-425e-941d-27d0ad63e458" />
+<br>
+
+<img width="1060" height="542" alt="image" src="https://github.com/user-attachments/assets/40b5f7b8-9ebe-42da-8d2b-a4a1c6d308f3" />
+
+<br>
