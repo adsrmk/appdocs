@@ -74,6 +74,5 @@ To send emails from your business address through Gmail, select **Yes, I want to
 
 ## Step 6 — Verify and finish
 
-Gmail will send a verification code to your business email address. Enter the code to confirm ownership.
-
+Gmail will send a verification link to your business email address.
 That's it — your business email is now linked to Gmail. You can send and receive messages directly from the Gmail interface.
