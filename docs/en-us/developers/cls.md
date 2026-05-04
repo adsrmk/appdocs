@@ -4,7 +4,6 @@
 
 Unlike LCP or INP, CLS isn't measured in seconds. It's a score calculated from the "impact fraction" and "distance fraction" of shifting elements on the page.
 
-<img width="932" height="344" alt="cls_061" src="https://github.com/user-attachments/assets/dca11dd8-fded-4e51-87a2-d472e9a03c22" />
 
 <br>
 
