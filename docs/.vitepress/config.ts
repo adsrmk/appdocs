@@ -9,8 +9,6 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
       text: 'Getting started',
       collapsed: false,
       items: [
-        { text: 'What is EVCloud?', link: 'what-is-evcloud' },
-        { text: 'Onboarding', link: 'onboarding' },
         { text: 'Add Domain', link: 'add_domain' },
         { text: 'Setup DNS records', link: 'setup_dns' }
       ]
