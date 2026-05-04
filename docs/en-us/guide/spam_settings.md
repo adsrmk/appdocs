@@ -25,4 +25,6 @@ The system uses a point-based scoring system (typically **1–10**) to determine
 - **Whitelist** — Make sure trusted senders or domains are never blocked by the filter.
 - **Blacklist** — Permanently block specific email addresses or entire domains.
 
-<img width="858" height="287" alt="image" src="https://github.com/user-attachments/assets/45f39257-749c-4adb-a3b2-15faed2ac5ef" />
+<br>
+
+<img width="1336" height="314" alt="image" src="https://github.com/user-attachments/assets/85213dd5-5773-4e8b-a66a-7717ced5d9ab" />
