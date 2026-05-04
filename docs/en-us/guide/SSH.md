@@ -14,13 +14,14 @@ In this guide we'll use the [Termius application↗](https://termius.com/index.h
 2. Select **Keychains**.
 3. Click **Keys** and choose **Generate Key** from the dropdown.
 
-<img width="3022" height="656" alt="image" src="https://github.com/user-attachments/assets/1a2d1dc0-e091-4a89-8d90-0f067c2c6faf" />
+<img width="925" height="331" alt="image" src="https://github.com/user-attachments/assets/78f0f8bf-a685-4013-b9d7-5f9463193a6d" />
+
 
 <br>
 
 4. Choose **ED25519** as the key type and (optionally) add a label for easy reference.
 
-<img width="674" height="722" alt="image" src="https://github.com/user-attachments/assets/86914dd3-ded2-492e-aa5a-f8f5a26095ec" />
+<img width="329" height="149" alt="image" src="https://github.com/user-attachments/assets/3bd5e4ed-d83d-44d6-8108-404b97f4bd14" />
 
 <br>
 
@@ -28,7 +29,8 @@ In this guide we'll use the [Termius application↗](https://termius.com/index.h
 6. Click **Generate & Save**.
 7. You'll now see both a private and a public key. **Copy the public key** — you'll paste it into the OS Cloud panel in the next step.
 
-<img width="670" height="1348" alt="image" src="https://github.com/user-attachments/assets/77e05c9f-1e86-4ab4-81bc-868e9f133b79" />
+<img width="304" height="459" alt="image" src="https://github.com/user-attachments/assets/5c0b97c9-cfc5-49c5-ab5d-5e1c1d8fb9df" />
+
 
 <br>
 
@@ -36,7 +38,8 @@ In this guide we'll use the [Termius application↗](https://termius.com/index.h
 
 1. In your OS Cloud panel, go to **Websites → [your website] → Advanced → Developer Tools → SSH Key Manager** and click **Add**.
 
-<img width="1556" height="1040" alt="image" src="https://github.com/user-attachments/assets/4f88f169-58cf-432c-a511-3fd2f0afd5bd" />
+<img width="773" height="454" alt="image" src="https://github.com/user-attachments/assets/f1ed393e-2f26-42bc-a0cc-bfa11d1f062c" />
+
 
 <br>
 
