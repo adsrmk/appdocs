@@ -2,5 +2,5 @@
 <br>
 
 # Developers
-De Developer-sectie bevat praktische tips, tricks en code snippets om je website sneller, veiliger en beter vindbaar te maken.
-Het is gericht voor ontwikkelaars, agencies en iedereen die het maximale uit zijn/haar website wilt halen.
+De Developer-sectie bevat praktische tips, tricks, tools en code snippets om je website sneller, veiliger en beter vindbaar te maken.
+Het is gericht voor ontwikkelaars, agencies en/of collaborators.
