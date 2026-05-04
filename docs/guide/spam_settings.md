@@ -15,7 +15,7 @@ Het systeem gebruikt een puntensysteem (meestal **1–10**) om te bepalen of een
 
 <br>
 
-<img width="1360" height="690" alt="image" src="https://github.com/user-attachments/assets/de5b78f0-64a2-47f5-b1e7-d27c9dada1da" />
+<img width="1332" height="683" alt="image" src="https://github.com/user-attachments/assets/c0f9ef96-fd4f-4e40-913f-a613b99bc01b" />
 
 <br>
 
