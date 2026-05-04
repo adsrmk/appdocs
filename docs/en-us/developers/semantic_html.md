@@ -4,7 +4,9 @@ Semantic HTML means using HTML elements based on their **purpose** rather than t
 
 This results in code that is more readable for developers, better understood by search engines (SEO), and — most importantly — much more accessible for people using assistive technologies like screen readers.
 
-<img width="670" height="412" alt="image" src="https://github.com/user-attachments/assets/fd76892c-274a-41b1-a0e3-dd304d433f50" />
+<br>
+
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/e95f5fe9-0443-438f-916a-74c73d672235" />
 
 <br>
 
