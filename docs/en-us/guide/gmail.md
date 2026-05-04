@@ -76,3 +76,21 @@ To send emails from your business address through Gmail, select **Yes, I want to
 
 Gmail will send a verification link to your business email address.
 That's it — your business email is now linked to Gmail. You can send and receive messages directly from the Gmail interface.
+
+<br>
+
+## Gmail authentication error
+
+> Server returned error: `[AUTH] Authentication failed.`
+
+The most common cause of this error is an incorrect **email address** or **password**, which prevents the mail server from establishing a connection with Google.
+
+### Solution
+
+1. Verify that the password exactly matches the one set in the **OSCloud Panel**.
+2. Make sure you're using the full email address (including domain, e.g. `name@yourdomain.com`).
+3. If needed, reset the password in the OSCloud Panel and try again.
+
+::: tip
+Passwords are case-sensitive. Copy and paste the password directly from the OSCloud Panel to avoid typing mistakes.
+:::
