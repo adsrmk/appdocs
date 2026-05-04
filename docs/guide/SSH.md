@@ -14,13 +14,17 @@ In deze handleiding gebruiken we de [Termius-applicatie↗](https://termius.com/
 2. Selecteer **Keychains**.
 3. Klik op **Keys** en kies **Generate Key** in het dropdown-menu.
 
-<img width="3022" height="656" alt="image" src="https://github.com/user-attachments/assets/1a2d1dc0-e091-4a89-8d90-0f067c2c6faf" />
+<br>
+
+<img width="925" height="331" alt="image" src="https://github.com/user-attachments/assets/78f0f8bf-a685-4013-b9d7-5f9463193a6d" />
 
 <br>
 
 4. Kies **ED25519** als sleuteltype en voeg (optioneel) een label toe voor eenvoudige herkenning.
+   
+<br>
 
-<img width="674" height="722" alt="image" src="https://github.com/user-attachments/assets/86914dd3-ded2-492e-aa5a-f8f5a26095ec" />
+<img width="329" height="149" alt="image" src="https://github.com/user-attachments/assets/3bd5e4ed-d83d-44d6-8108-404b97f4bd14" />
 
 <br>
 
@@ -28,7 +32,9 @@ In deze handleiding gebruiken we de [Termius-applicatie↗](https://termius.com/
 6. Klik op **Generate & Save**.
 7. Je ziet nu zowel een privé- als publieke sleutel. **Kopieer de publieke sleutel** — die plak je in de volgende stap in het OS Cloud-paneel.
 
-<img width="670" height="1348" alt="image" src="https://github.com/user-attachments/assets/77e05c9f-1e86-4ab4-81bc-868e9f133b79" />
+<br>
+
+<img width="304" height="459" alt="image" src="https://github.com/user-attachments/assets/5c0b97c9-cfc5-49c5-ab5d-5e1c1d8fb9df" />
 
 <br>
 
@@ -36,7 +42,7 @@ In deze handleiding gebruiken we de [Termius-applicatie↗](https://termius.com/
 
 1. Ga in je OS Cloud-paneel naar **Websites → [je website] → Geavanceerd → Ontwikkelaarstools → SSH-sleutelbeheer** en klik op **Toevoegen**.
 
-<img width="1556" height="1040" alt="image" src="https://github.com/user-attachments/assets/4f88f169-58cf-432c-a511-3fd2f0afd5bd" />
+<img width="773" height="454" alt="image" src="https://github.com/user-attachments/assets/f1ed393e-2f26-42bc-a0cc-bfa11d1f062c" />
 
 <br>
 
