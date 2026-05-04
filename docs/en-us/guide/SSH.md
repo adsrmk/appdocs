@@ -23,16 +23,23 @@ In this guide we'll use the [Termius application↗](https://termius.com/index.h
 
 <img width="329" height="149" alt="image" src="https://github.com/user-attachments/assets/3bd5e4ed-d83d-44d6-8108-404b97f4bd14" />
 
+
 <br>
+
 
 5. Add a **passphrase** for extra security. This way, if someone gets access to your device, they'll still need the passphrase to connect.
 6. Click **Generate & Save**.
 7. You'll now see both a private and a public key. **Copy the public key** — you'll paste it into the OS Cloud panel in the next step.
 
+   
+<br>
+
+
 <img width="304" height="459" alt="image" src="https://github.com/user-attachments/assets/5c0b97c9-cfc5-49c5-ab5d-5e1c1d8fb9df" />
 
 
 <br>
+
 
 ## Step 2 — Add the public key to OS Cloud
 
@@ -42,6 +49,7 @@ In this guide we'll use the [Termius application↗](https://termius.com/index.h
 
 
 <br>
+
 
 2. Give the key a name and paste the public key.
 
