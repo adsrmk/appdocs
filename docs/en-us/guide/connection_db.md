@@ -43,11 +43,19 @@ If the database details look correct, the issue is most likely the password. In 
 1. Go back to the **Database users** section.
 2. Select the user whose password you want to change.
 
-<img width="1790" height="670" alt="image" src="https://github.com/user-attachments/assets/3908df5b-f0fc-4f32-90e1-2f1f549ae5b8" />
+<br>
+
+<img width="1342" height="300" alt="image" src="https://github.com/user-attachments/assets/19f2f174-bd70-4215-9a4f-18e87a8fc2a4" />\
+
+<br>
 
 3. Click **Reset** in the top-right of the block and enter a new password in the input field.
 
-<img width="1810" height="910" alt="image" src="https://github.com/user-attachments/assets/fa55452d-5198-4051-a50a-467b26ff512d" />
+<br>
+
+<img width="617" height="369" alt="image" src="https://github.com/user-attachments/assets/7885a7ed-ed3f-401f-bce3-e977c86c0c78" />
+
+<br>
 
 4. Click **Change password** to confirm. Then update the `DB_PASSWORD` value in your `wp-config.php` file with the new password.
 
@@ -60,11 +68,19 @@ If the database details look correct, the issue is most likely the password. In 
 3. Scroll down to the **Database access** section.
 4. Click the kebab menu (three vertical dots) on the right and select **Edit privileges**.
 
-<img width="1788" height="458" alt="image" src="https://github.com/user-attachments/assets/43bbb6bf-ba83-4a35-9a98-5d73c81d86d4" />
+<br>
+
+<img width="1329" height="390" alt="image" src="https://github.com/user-attachments/assets/6407579a-c60f-48a3-ab58-8c93290186ec" />
+
+<br>
 
 5. Tick the box **All database privileges**.
 
-<img width="1352" height="586" alt="image" src="https://github.com/user-attachments/assets/66b68a5e-740e-4959-9642-641d6cee5ae9" />
+<br>
+
+<img width="617" height="245" alt="image" src="https://github.com/user-attachments/assets/ba03a710-9e83-411d-9c91-ced13a9b9fca" />
+
+<br>
 
 6. Save your changes and exit.
 
