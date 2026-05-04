@@ -15,13 +15,17 @@ Open Gmail, klik op het ⚙️ tandwiel-icoon rechtsboven en kies **Alle instell
 1. Ga naar het tabblad **Accounts en import**.
 2. Klik onder **E-mail van andere accounts controleren** op **Een e-mailaccount toevoegen**.
 
-<img width="2326" height="1050" alt="image" src="https://github.com/user-attachments/assets/fa329301-454c-4135-9885-5ef2b89f62c4" />
+<br>
+
+<img width="1344" height="818" alt="image" src="https://github.com/user-attachments/assets/567563d1-17cc-417b-b8b1-0e5f148fe75e" />
 
 <br>
 
 3. Voer je zakelijke e-mailadres in en klik op **Volgende →**.
 
-<img width="1102" height="920" alt="image" src="https://github.com/user-attachments/assets/20f7e93d-9a96-4098-b81b-d8cb433f44a6" />
+<br>
+
+<img width="551" height="184" alt="image" src="https://github.com/user-attachments/assets/57958ea8-c04d-46c1-8f4e-66ebd37bce9d" />
 
 <br>
 
@@ -38,7 +42,9 @@ Open Gmail, klik op het ⚙️ tandwiel-icoon rechtsboven en kies **Alle instell
 | **POP-server** | Te vinden in je e-mailinstellingen (**E-mails → E-mailaccount → E-mailclient-instellingen**) |
 | **Poort** | `995` |
 
-<img width="1674" height="448" alt="image" src="https://github.com/user-attachments/assets/da4c4f49-bd67-4043-93f6-de13ce33e4ab" />
+<br>
+
+<img width="593" height="373" alt="image" src="https://github.com/user-attachments/assets/0307d656-4b95-4c22-ba70-b82325b027c8" />
 
 <br>
 
@@ -62,7 +68,9 @@ Wil je vanuit Gmail e-mails versturen vanaf je zakelijke adres? Kies dan **Ja, i
 | **Poort** | `587` |
 | **Beveiligde verbinding** | TLS |
 
-<img width="1098" height="918" alt="image" src="https://github.com/user-attachments/assets/e8c1e455-2045-41ce-8950-edc9477f3128" />
+<br>
+
+<img width="593" height="321" alt="image" src="https://github.com/user-attachments/assets/0bae460d-24c9-4cf2-83b9-32995a5ab469" />
 
 <br>
 
