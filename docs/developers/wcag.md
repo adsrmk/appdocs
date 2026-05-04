@@ -27,7 +27,9 @@ WCAG is opgebouwd rond vier fundamentele principes, samengevat in het acroniem *
 
 WCAG definieert specifieke, testbare succescriteria, verdeeld over drie niveaus van conformiteit. Elk niveau bouwt voort op het vorige.
 
-<img width="648" height="431" alt="image" src="https://github.com/user-attachments/assets/8039a371-9606-4c3e-a428-d134f01fbd49" />
+<br>
+
+<img width="814" height="498" alt="image" src="https://github.com/user-attachments/assets/ff0895b0-0356-4f26-a9a7-8336dc9e87a0" />
 
 <br>
 
