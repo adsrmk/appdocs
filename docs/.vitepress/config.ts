@@ -189,7 +189,7 @@ function sidebarDevelopers(): DefaultTheme.SidebarItem[] {
 // ─── Nav Items ──────────────────────────────────────────────────────────────
 
 const navItems: DefaultTheme.NavItem[] = [
-  { text: 'Guide', link: '/guide/2FA', activeMatch: '/(en-us/)?guide/' },
+  { text: 'Guide', link: '/guide/add_domain', activeMatch: '/(en-us/)?guide/' },
   { text: 'Developers', link: '/developers/wcag', activeMatch: '/(en-us/)?developers/' },
   { text: 'Whatsapp', link: 'https://api.whatsapp.com/send/?phone=31613332490' },
   { text: 'Status', link: 'https://status.oscloud.nl/' }
