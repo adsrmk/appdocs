@@ -2,8 +2,6 @@
 
 [Interaction to Next Paint↗](https://web.dev/articles/inp) (**INP**) is a Core Web Vital that measures a page's overall responsiveness. As of **March 2024**, Google officially replaced **FID (First Input Delay)** with INP to provide a more complete picture of user experience.
 
-<img width="777" height="317" alt="image" src="https://github.com/user-attachments/assets/4af2b74f-70de-4183-8ee5-2f4dabb4b50a" />
-
 <br>
 
 While FID only measured the delay of the **first** interaction, INP measures how long it takes the page to visually respond to **every** click, tap, and keyboard input throughout a session.
