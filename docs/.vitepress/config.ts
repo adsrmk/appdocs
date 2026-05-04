@@ -107,9 +107,7 @@ function sidebarDevelopers(): DefaultTheme.SidebarItem[] {
       items: [
         { text: 'WCAG', link: 'wcag' },
         { text: 'ARIA Roles', link: 'ARIA' },
-        { text: 'Semantic HTML', link: 'semantic_html' },
-        { text: 'Runtime API', link: 'runtime-api' },
-        { text: 'CLI', link: 'cli' }
+        { text: 'Semantic HTML', link: 'semantic_html' }
       ]
     },
     {
