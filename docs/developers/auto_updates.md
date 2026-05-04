@@ -43,4 +43,8 @@ add_filter( 'auto_update_theme', '__return_true' );
 
 Je kunt automatische updates ook direct inschakelen via het **OS Cloud**-paneel. Deze methode geeft je **selectieve controle** — je kunt updates per plugin of thema in- of uitschakelen, in plaats van voor alles tegelijk.
 
-<img width="990" height="135" alt="image" src="https://github.com/user-attachments/assets/05f61a12-9876-4207-8e7c-3ed6eedc79df" />
+<br>
+
+<img width="612" height="271" alt="image" src="https://github.com/user-attachments/assets/080d11d1-e004-414b-b2a4-a1e749b69c1b" />
+
+<br>
