@@ -46,8 +46,8 @@
     sidebarNavigation.innerHTML = `<div class="docs-nav-group-title">${escapeHtml(ui.sidebarGroup)}</div>` + data.categories.map((category) => {
       const articles = data.articles.filter((article) => article.category === category.id && article.slug !== faqSlug);
       return `
-        <section class="docs-nav-section collapsed" data-nav-category="${category.id}">
-          <button class="docs-nav-heading" type="button" aria-expanded="false">
+        <section class="docs-nav-section" data-nav-category="${category.id}">
+          <button class="docs-nav-heading" type="button" aria-expanded="true">
             <span>${escapeHtml(category.title)}</span>
             <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6" /></svg>
           </button>
@@ -190,9 +190,9 @@
   function updateNavigation(parts) {
     sidebarNavigation.querySelectorAll("[data-article-link]").forEach((link) => link.classList.remove("active"));
     sidebarNavigation.querySelectorAll(".docs-nav-section").forEach((section) => {
-      section.classList.add("collapsed");
+      section.classList.remove("collapsed");
       section.classList.remove("is-active");
-      section.querySelector(".docs-nav-heading").setAttribute("aria-expanded", "false");
+      section.querySelector(".docs-nav-heading").setAttribute("aria-expanded", "true");
     });
 
     if (parts[0] === "article") {
