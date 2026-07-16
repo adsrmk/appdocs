@@ -1,5 +1,6 @@
 [build]
-  publish = "."
+  command = "npm run docs:build"
+  publish = "docs/.vitepress/dist"
 
 [[headers]]
   for = "/assets/*"
