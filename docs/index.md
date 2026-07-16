@@ -1,22 +1,58 @@
+---
+layout: home
 
-<img width="780" height="200" alt="image" src="https://i.8upload.com/image/52753d79ddecb195/support.png" />
+hero:
+  name: Heurs Support
+  text: Workforce management, helder uitgelegd.
+  tagline: Praktische handleidingen voor medewerkers, urenregistraties, verlof en organisatiebeheer.
+  image:
+    src: /heurs-icon.png
+    alt: Heurs
+  actions:
+    - theme: brand
+      text: Aan de slag
+      link: /aan-de-slag/welkom-voor-ondernemers
+    - theme: alt
+      text: Veelgestelde vragen
+      link: /aan-de-slag/veelgestelde-vragen
 
+features:
+  - icon: 🚀
+    title: Aan de slag
+    details: Richt je organisatie in en maak Heurs klaar voor je team.
+    link: /aan-de-slag/welkom-voor-ondernemers
+    linkText: Begin hier
+  - icon: ✓
+    title: Dashboard
+    details: Krijg inzicht in bezetting, uren, verlof en openstaande acties.
+    link: /dashboard/ondernemersdashboard-gebruiken
+    linkText: Bekijk dashboardhulp
+  - icon: 👥
+    title: Medewerkers
+    details: Nodig medewerkers uit en beheer je werknemersoverzicht.
+    link: /medewerkers/medewerker-uitnodigen
+    linkText: Beheer medewerkers
+  - icon: ⏱
+    title: Urenregistraties
+    details: Controleer ingediende uren en volg ontbrekende weken op.
+    link: /urenregistraties/urenregistraties-goedkeuren
+    linkText: Naar urenregistraties
+  - icon: ✈
+    title: Verlofbeheer
+    details: Beoordeel aanvragen en bewaak de beschikbaarheid van je team.
+    link: /verlofbeheer/verlofaanvragen-beoordelen
+    linkText: Naar verlofbeheer
+  - icon: ⚙
+    title: Instellingen
+    details: Beheer werkweek, verlofbeleid, meldingen en beveiliging.
+    link: /instellingen/werkweek-en-bezetting-instellen
+    linkText: Open instellingenhulp
+---
 
-<br>
+## Eén kennisbank voor de workforce-app
 
-OS Support is de centrale documentatie voor alles rondom het OSCloud-platform.
+Deze documentatie volgt dezelfde onderwerpen als de supportomgeving in de applicatie. Gebruik de taalkeuze bovenaan om tussen Nederlands en Engels te wisselen.
 
-Je vindt hier duidelijke oplossingen voor problemen en praktische handleidingen voor het instellen en beheren van je website, e-mail en andere diensten.
-
-Daarnaast bevat OS Support een developerssectie met concrete tips om je website sneller, veiliger en beter vindbaar te maken. Ideaal voor ontwikkelaars die aan je project werken — of voor iedereen die gewoon toegang wil tot heldere, technische documentatie. De docs zijn volledig openbaar.
-
-
-<div class="tip custom-block" style="padding-top: 8px">
-Nieuw bij OS Cloud? Begin met onze <a href="/guide/getting-started">Getting Started</a>-handleiding, of duik direct in de categorie die bij jouw vraag past.
-</div>
-
-<br>
-
-## Niet gevonden wat je zoekt?
-
-Ons team helpt je graag verder. Neem contact op via [support@originstudio.nl](mailto:support@originstudio.nl) en we reageren zo snel mogelijk.
+::: tip Niet gevonden wat je zoekt?
+Stuur een bericht naar [support@heurs.nl](mailto:support@heurs.nl). Deel nooit wachtwoorden of tweestapsverificatiecodes.
+:::

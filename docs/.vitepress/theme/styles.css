@@ -1,224 +1,48 @@
-
-
-
-
-/* Fix voor de navbar die vaak buiten de pageClass valt */
-/* We dwingen de kleuren af als de gebruiker in de developers sectie zit */
-.developer-dark .VPNavBar {
-  background-color: #1a1a1a !important;
-  border-bottom: 1px solid #333333 !important;
-}
-
-/* Zorg dat je oranje knoppen goed blijven op zwart */
-.developer-dark .VPSidebarItem.is-active > .item {
-  background-color: #bc3411 !important;
-}
-
-/* Fix voor code blokken in de dark sectie */
-.developer-dark .vp-doc code {
-  background-color: #2f2f2f !important;
-  color: #ff8e72 !important; /* Iets lichter oranje voor contrast */
-}
-
-/* ─── Sidebar Active Button Style (Full Width) ───────────────────────── */
-
-/* De container van het actieve item */
-.VPSidebarItem.is-active > .item {
-  background-color: #bc3411 !important; /* OSCloud Oranje */
-  border-radius: 4px;                    /* Iets subtielere afronding */
-  
-  /* Geen ruimte aan de zijkanten, wel aan de bovenkant */
-  margin: 4px 0 0 0 !important; 
-  
-  /* Padding 2px kleiner gemaakt (bijv. van 4px naar 2px verticaal) */
-  padding: 0px 12px !important; 
-  
-  transition: background-color 0.3s ease;
-  display: flex;
-  align-items: center;
-}
-
-/* De tekst binnen het actieve item FORCEREN op wit */
-.VPSidebarItem.is-active > .item .link .text {
-  color: #ffffff !important;             /* Harde override naar wit */
-  font-weight: 600;
-}
-
-/* De indicator (het lijntje aan de zijkant) volledig verwijderen */
-.VPSidebarItem.is-active > .item > .indicator {
-  display: none !important;
-}
-
-/* Hover effect voor de actieve knop */
-.VPSidebarItem.is-active > .item:hover {
-  background-color: #d43d15 !important;
-}
-
-
-
-
-
-.VPDocAside[data-v-3117dd8f] .spacer+.VPDocAsideSponsors, .VPDocAside[data-v-3117dd8f] .spacer+.VPDocAsideCarbonAds {
-display: none;
-}
-
-/* ─── Previous / Next Pagination ─────────────────────────────────────── */
-
-.title[data-v-9e12100f] {
-  color: #111 !important;
-}
-.VPLastUpdated + .VPPrevNext .title {
-  color: #bc3411 !important;
-  transition: color 0.25s ease;
-}
-
-.pager-link:hover {
-  border-color: #bc3411 !important;
-}
-
-.pager-link:hover .title {
-  color: #d43d15 !important; /* Slightly lighter orange on hover */
-}
-
-
-/* Verwijder de achtergrond en border van code-tags binnen containers */
-.custom-block code {
-  background-color: transparent !important;
-  color: inherit !important; /* Neemt de kleur van de waarschuwing over (bijv. donkerrood/bruin) */
-}
-
-/* Inline code snippets (backticks in markdown) */
-:not(pre) > code {
-  background-color: rgba(188, 52, 17, 0.04) !important; /* Very light brand orange background */
-  color: #bc3411 !important;                            /* Brand orange text color */
-}
-
-
-/* Ensure the logo maintains its original aspect ratio */
-.VPNavBar .logo {
-  height: 32px !important; /* Adjust this to your preferred height */
-  width: auto !important;   /* Forces the width to scale proportionally */
-}
-
-
-/* ─── Global & Desktop Styles ─────────────────────────────────────────── */
-
-/* Indicator dots/lines for active nested sidebar items */
-.VPSidebarItem.level-2.is-active > .item > .indicator,
-.VPSidebarItem.level-3.is-active > .item > .indicator,
-.VPSidebarItem.level-4.is-active > .item > .indicator,
-.VPSidebarItem.level-5.is-active > .item > .indicator {
-  background-color: #bc3411 !important;
-}
-
-.outline-marker {
-  background-color: #111 !important;
-}
-  
-
-
-/* Top Navigation Links */
-.VPNavBarMenuLink {
-  transition: color 0.25s ease, border-color 0.25s ease;
-}
-
-.VPNavBarMenuLink:hover {
-  color: #bc3411 !important;
-}
-
-.VPNavBarMenuLink.active {
-  color: #bc3411 !important;
-  border-bottom: 2px solid #bc3411;
-}
-
-/* Sidebar Item Text & Transitions */
-.VPSidebarItem .link .text {
-  transition: color 0.2s ease, transform 0.2s ease;
-  display: inline-block;
-}
-
-.VPSidebarItem .link:hover .text {
-  color: #d43d15 !important;
-  transform: translateX(4px);
-}
-
-
-/* ─── Mobile Specific Styles ──────────────────────────────────────────── */
-
-/* Hamburger Menu Icon (When Open) */
-.VPNavBarHamburger.active .top,
-.VPNavBarHamburger.active .middle,
-.VPNavBarHamburger.active .bottom {
-  background-color: #bc3411 !important;
-}
-
-/* Mobile Nav Screen Links (Full screen overlay) */
-.VPNavScreenMenuLink {
-  transition: color 0.2s ease;
-}
-
-.VPNavScreenMenuLink.is-active,
-.VPNavScreenMenuLink:hover {
-  color: #bc3411 !important;
-}
-
-/* Mobile Appearance/Social Toggles Active State */
-.VPNavScreen .active {
-  color: #bc3411 !important;
-}
-
-/* Mobile Sidebar Drawer Active Items */
-/* This ensures the brand color stays when the sidebar is inside the mobile drawer */
-.VPNavScreen .VPSidebarItem.is-active > .item .link > .text {
-  color: #bc3411 !important;
-}
-
-
-/* ─── 404 Page "Take me home" Button ────────────────────────────────── */
-
-.VPNotFound .action {
-  border: 2px solid #bc3411 !important; /* Brand orange border */
-  color: #bc3411 !important;           /* Brand orange text */
-  background-color: transparent !important;
-  transition: all 0.25s ease;
-  text-decoration: none !important;
-}
-
-.VPNotFound .action:hover {
-  background-color: #bc3411 !important; /* Fills with orange on hover */
-  color: #ffffff !important;           /* White text on hover */
-  border-color: #d43d15 !important;    /* Slightly lighter orange border on hover */
-}
-
-
-
-
-:root:where(:lang(fa)) {
-  --vp-font-family-base:
-    'Vazirmatn', 'Inter', ui-sans-serif, system-ui, sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-}
-
 :root {
-  --vp-c-brand: #bc3411;
-    --vp-c-brand-1: #bc3411;
-    --vp-c-brand-2: #bc3411;
-    --vp-c-brand-3: #bc3411;
-  --vp-c-brand-next: #d43d15; 
+  --vp-c-brand-1: #206bc4;
+  --vp-c-brand-2: #1d5fae;
+  --vp-c-brand-3: #194f91;
+  --vp-c-brand-soft: rgba(32, 107, 196, 0.14);
   --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(120deg, #206bc4 20%, #6f42c1 82%);
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, rgba(32, 107, 196, 0.32), rgba(111, 66, 193, 0.24));
+  --vp-home-hero-image-filter: blur(52px);
+  --vp-font-family-base: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
-
-
-@media (min-width: 960px) {
-  :root {
-    --vp-home-hero-image-filter: blur(68px);
-  }
+.VPNavBarTitle .logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
 }
 
+.VPFeature {
+  transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+}
 
-/* used in reference/default-theme-search */
-img[src='/search.png'] {
+.VPFeature:hover {
+  transform: translateY(-2px);
+  border-color: var(--vp-c-brand-1);
+  box-shadow: 0 10px 28px rgba(32, 107, 196, 0.10);
+}
+
+.vp-doc h2 {
+  letter-spacing: -0.02em;
+}
+
+.vp-doc table {
+  display: table;
   width: 100%;
-  aspect-ratio: 1 / 1;
+}
+
+.VPSidebarItem.is-active > .item .link > .text {
+  color: var(--vp-c-brand-1);
+  font-weight: 650;
+}
+
+@media (max-width: 640px) {
+  .vp-doc table {
+    display: block;
+    overflow-x: auto;
+  }
 }

@@ -1,255 +1,177 @@
 import { defineConfig, type DefaultTheme } from 'vitepress'
-import { withMermaid } from 'vitepress-plugin-mermaid'
 
-// ─── Sidebar Guide ──────────────────────────────────────────────────────────
-
-function sidebarGuide(): DefaultTheme.SidebarItem[] {
-  return [
-    {
-      text: 'Getting started',
-      collapsed: false,
-      items: [
-        { text: 'Add Domain', link: 'add_domain' },
-        { text: 'Setup DNS records', link: 'setup_dns' }
-      ]
-    },
-    {
-      text: 'Application(s)',
-      collapsed: false,
-      items: [
-        { text: 'Users', link: 'users' },
-        { text: 'File Manager', link: 'file_manager' },
-        { text: 'Redirects', link: 'redirect' },
-        { text: 'SSH Keys', link: 'SSH' },
-        { text: 'Backups', link: 'backups' },
-        { text: 'Database', link: 'database' },
-        {
-          text: 'Wordpress Toolkit',
-          items: [
-            { text: 'General', link: 'general' },
-            { text: 'Plugins', link: 'plugins' },
-            { text: 'Themes', link: 'themes' },
-            { text: 'Users', link: 'wp_users' },
-            { text: 'Debug', link: 'debug' }
-          ]
-        },
-        {
-          text: 'Email',
-          items: [
-            { text: 'Setup Mail DNS', link: 'setup_mail_records' },
-            { text: 'Mailbox', link: 'mailbox' },
-            { text: 'Forwarders', link: 'forwarders' },
-            { text: 'Catch All', link: 'catchall' },
-            { text: 'Spam Settings', link: 'spam_settings' },
-            { text: 'Out of office', link: 'out_of_office' },
-            { text: 'File Attachments', link: 'file_attachment' },
-            { text: 'Add Mailbox to Gmail', link: 'gmail' },
-            { text: 'Webmail', link: 'webmail' }
-          ]
-        }
-      ]
-    },
-    {
-      text: 'Security',
-      collapsed: false,
-      items: [
-        { text: 'Setup 2FA', link: '2FA' },
-        { text: 'DNSSEC', link: 'dnssec' },
-        { text: 'Credentials', link: 'credentials' }
-      ]
-    },
-    {
-      text: 'Billing',
-      collapsed: false,
-      items: [
-        { text: 'Payment methods', link: 'payments' },
-        { text: 'Failed payment', link: 'failed-payment' },
-        { text: 'VAT', link: 'VAT' }
-      ]
-    },
-    {
-      text: 'Wordpress',
-      collapsed: false,
-      items: [
-        { text: 'Increase WP memory limit', link: 'wp_memory' },
-        { text: 'Setup WP mail', link: 'wp_mail' },
-        { text: 'Reset WP password', link: 'reset_admin_pass' },
-        { text: 'Create or restore backup', link: 'ai1wm' },
-        { text: 'Disable Cron jobs', link: 'cronjobs' }
-      ]
-    },
-    {
-      text: 'Issues',
-      collapsed: false,
-      items: [
-        { text: 'ERR_CONN_REFUSED', link: 'ERR_CONNECTION_REFUSED' },
-        { text: 'ERR_NOT_RESOLVED', link: 'ERR_NAME_NOT_RESOLVED' },
-        { text: 'ERR_SSL_PROTOCOL', link: 'ERR_SSL_PROTOCOL_ERROR' },
-        { text: 'Image upload error', link: 'Upload' },
-        { text: 'Error Database Conn.', link: 'connection_db' },
-        { text: 'ERR_502: Bad Gateway', link: '502' },
-        { text: 'ERR_1015: Rate Limited', link: '1015' },
-        { text: 'Requesting SSL', link: 'SSL' },
-        { text: 'Elementor 500', link: 'elementor_500' },
-        { text: 'Unable to access FTP', link: 'SFTP' }
-      ]
-    }
-  ]
-}
-
-// ─── Sidebar Developers ─────────────────────────────────────────────────────
-
-function sidebarDevelopers(): DefaultTheme.SidebarItem[] {
-  return [
-    {
-      text: 'General',
-      items: [
-        { text: 'WCAG', link: 'wcag' },
-        { text: 'ARIA Roles', link: 'ARIA' },
-        { text: 'Semantic HTML', link: 'semantic_html' }
-      ]
-    },
-    {
-      text: 'Developer Features',
-      collapsed: false,
-      items: [
-        { text: 'IonCube loader', link: 'ioncube' },
-        { text: 'PHP', link: 'php' },
-        { text: 'Redis', link: 'redis' },
-        {
-          text: 'Web Dev Tools',
-          items: [
-            { text: 'Caniuse', link: 'caniuse' },
-            { text: 'Accessibility', link: 'accessibility' },
-            { text: 'Pagespeed Insights', link: 'psi' },
-            { text: 'Search console', link: 'search_console' },
-            { text: 'MDN HTTP', link: 'mdn_http' }
-          ]
-        }
-      ]
-    },
-    {
-      text: 'Web Security',
-      collapsed: false,
-      items: [
-        { text: 'Reinstall WP core using CLI', link: 'wp_cli' },
-        { text: 'Obfuscate Wordpress', link: 'obfuscate' },
-        { text: 'Remove fingerprints and versions', link: 'hide_wp' },
-        { text: 'Disable WP-Login', link: 'backend' },
-        { text: 'Disable REST-API', link: 'rest_api' },
-        { text: 'HTTP Headers', link: 'HTTP_security' },
-        { text: 'CAPTCHA', link: 'captcha' },
-        { text: 'Change Database Prefix', link: 'db_prefix' },
-        { text: 'Idle Session Timeouts', link: 'session_timeout' },
-        { text: 'Automatic Updates', link: 'auto_updates' },
-        { text: 'Disable File Editing', link: 'disable_file' },
-        { text: 'Block User Enumeration', link: 'block_user_enum' },
-        { text: 'File Permissions', link: 'chmod' }
-      ]
-    },
-    {
-      text: 'SEO',
-      collapsed: false,
-      items: [
-        { text: 'Schema Markup', link: 'schema' },
-        { text: 'XML Sitemaps', link: 'sitemap' },
-        { text: 'Indexing', link: 'indexing' }
-      ]
-    },
-    {
-      text: 'Performance',
-      collapsed: false,
-      items: [
-        { text: 'Speculation Rules API', link: 'speculation_rules_api' },
-        { text: 'Link Preloading', link: 'preloading' },
-        { text: 'Dequeueing', link: 'dequeue' },
-        {
-          text: 'FCGI',
-          items: [
-            { text: 'FCGI', link: 'fastcgi' },
-            { text: 'Preload FCGI Cache', link: 'preload_fcgi' }
-          ]
-        },
-        { text: 'Formatting Images', link: 'image_formats' },
-        { text: 'Optimizing Font', link: 'optimizing_font' },
-        {
-          text: 'Metrics',
-          items: [
-            { text: 'TTFB', link: 'ttfb' },
-            { text: 'FCP/LCP', link: 'lcp' },
-            { text: 'INP', link: 'inp' },
-            { text: 'CLS', link: 'cls' }
-          ]
-        }
-      ]
-    }
-  ]
-}
-
-// ─── Nav Items ──────────────────────────────────────────────────────────────
-
-const navItems: DefaultTheme.NavItem[] = [
-  { text: 'Guide', link: '/guide/add_domain', activeMatch: '/(en-us/)?guide/' },
-  { text: 'Developers', link: '/developers/wcag', activeMatch: '/(en-us/)?developers/' },
-  { text: 'Whatsapp', link: 'https://api.whatsapp.com/send/?phone=31613332490' },
-  { text: 'Status', link: 'https://status.oscloud.nl/' }
+const nlSidebar: DefaultTheme.Sidebar = [
+  {
+    text: 'Aan de slag',
+    items: [
+      { text: 'Welkom bij Heurs', link: '/aan-de-slag/welkom-voor-ondernemers' },
+      { text: 'Organisatie inrichten', link: '/aan-de-slag/organisatie-inrichten' },
+      { text: 'Veelgestelde vragen', link: '/aan-de-slag/veelgestelde-vragen' }
+    ]
+  },
+  {
+    text: 'Dashboard',
+    items: [
+      { text: 'Dashboard gebruiken', link: '/dashboard/ondernemersdashboard-gebruiken' },
+      { text: 'Teaminzicht en bezetting', link: '/dashboard/teaminzicht-bekijken' }
+    ]
+  },
+  {
+    text: 'Medewerkers',
+    items: [
+      { text: 'Medewerker uitnodigen', link: '/medewerkers/medewerker-uitnodigen' },
+      { text: 'Werknemersoverzicht', link: '/medewerkers/werknemersoverzicht-gebruiken' }
+    ]
+  },
+  {
+    text: 'Urenregistraties',
+    items: [
+      { text: 'Uren goedkeuren', link: '/urenregistraties/urenregistraties-goedkeuren' },
+      { text: 'Ontbrekende uren opvolgen', link: '/urenregistraties/ontbrekende-uren-opvolgen' }
+    ]
+  },
+  {
+    text: 'Verlofbeheer',
+    items: [
+      { text: 'Aanvragen beoordelen', link: '/verlofbeheer/verlofaanvragen-beoordelen' },
+      { text: 'Teambeschikbaarheid', link: '/verlofbeheer/teambeschikbaarheid-controleren' }
+    ]
+  },
+  {
+    text: 'Instellingen',
+    items: [
+      { text: 'Werkweek en bezetting', link: '/instellingen/werkweek-en-bezetting-instellen' },
+      { text: 'Verlofbeleid', link: '/instellingen/verlofbeleid-instellen' },
+      { text: 'Herinneringen en meldingen', link: '/instellingen/urenherinneringen-instellen' },
+      { text: 'Beveiliging en 2FA', link: '/instellingen/beveiliging-en-2fa' }
+    ]
+  }
 ]
 
-// ─── Main Config ────────────────────────────────────────────────────────────
+const enSidebar: DefaultTheme.Sidebar = [
+  {
+    text: 'Getting started',
+    items: [
+      { text: 'Welcome to Heurs', link: '/en/getting-started/welcome-for-employers' },
+      { text: 'Set up your organization', link: '/en/getting-started/set-up-your-organization' },
+      { text: 'Frequently asked questions', link: '/en/getting-started/frequently-asked-questions' }
+    ]
+  },
+  {
+    text: 'Dashboard',
+    items: [
+      { text: 'Use the dashboard', link: '/en/dashboard/use-the-employer-dashboard' },
+      { text: 'Team insights and staffing', link: '/en/dashboard/view-team-insights' }
+    ]
+  },
+  {
+    text: 'Employees',
+    items: [
+      { text: 'Invite an employee', link: '/en/employees/invite-an-employee' },
+      { text: 'Use the employee overview', link: '/en/employees/use-the-employee-overview' }
+    ]
+  },
+  {
+    text: 'Time registration',
+    items: [
+      { text: 'Approve registrations', link: '/en/time-registration/approve-time-registrations' },
+      { text: 'Follow up missing hours', link: '/en/time-registration/follow-up-missing-hours' }
+    ]
+  },
+  {
+    text: 'Leave management',
+    items: [
+      { text: 'Review requests', link: '/en/leave-management/review-leave-requests' },
+      { text: 'Check team availability', link: '/en/leave-management/check-team-availability' }
+    ]
+  },
+  {
+    text: 'Settings',
+    items: [
+      { text: 'Workweek and staffing', link: '/en/settings/configure-workweek-and-staffing' },
+      { text: 'Leave policy', link: '/en/settings/configure-the-leave-policy' },
+      { text: 'Reminders and notifications', link: '/en/settings/configure-time-reminders' },
+      { text: 'Account security and 2FA', link: '/en/settings/secure-your-employer-account' }
+    ]
+  }
+]
 
-export default withMermaid({
-  title: 'OS Support',
-  description: 'OSCloud Support Documentation',
-  lang: 'nl-NL',
+export default defineConfig({
+  title: 'Heurs Support',
   cleanUrls: true,
   lastUpdated: true,
-  appearance: false,
-
-
+  appearance: true,
   locales: {
     root: {
       label: 'Nederlands',
       lang: 'nl-NL',
-      dir: 'ltr'
+      title: 'Heurs Support',
+      description: 'Handleidingen voor de Heurs workforce-app.'
     },
-    'en-us': {
+    en: {
       label: 'English',
       lang: 'en-US',
-      dir: 'ltr'
+      link: '/en/',
+      title: 'Heurs Support',
+      description: 'Guides for the Heurs workforce app.'
     }
   },
-
   head: [
-    ['link', { rel: 'icon', type: 'image/png', href: '/emblem48x48.png' }],
-    ['meta', { name: 'theme-color', content: '#bc3411' }]
+    ['link', { rel: 'icon', type: 'image/png', href: '/heurs-icon.png' }],
+    ['meta', { name: 'theme-color', content: '#206bc4' }]
   ],
-
   themeConfig: {
-    nav: navItems,
-
-    siteTitle: false,
-    logo: {
-      src: '/OSCLO.png',
-      alt: 'OSCloud Logo',
-      link: '/'
-    },
-
-    sidebar: {
-      '/guide/': { base: '/guide/', items: sidebarGuide() },
-      '/developers/': { base: '/developers/', items: sidebarDevelopers() },
-      '/en-us/guide/': { base: '/en-us/guide/', items: sidebarGuide() },
-      '/en-us/developers/': { base: '/en-us/developers/', items: sidebarDevelopers() }
-    },
-
+    logo: { src: '/heurs-icon.png', alt: 'Heurs' },
+    siteTitle: 'Heurs Support',
     search: {
-      provider: 'algolia',
+      provider: 'local',
       options: {
-        appId: 'K0IFZQKPA9',
-        apiKey: '240f46d06c9eb11ed5fba213c0f55bb5',
-        indexName: 'Doc site'
+        locales: {
+          root: {
+            translations: {
+              button: { buttonText: 'Zoeken', buttonAriaLabel: 'Zoeken' },
+              modal: {
+                noResultsText: 'Geen resultaten gevonden voor',
+                resetButtonTitle: 'Zoekopdracht wissen',
+                footer: { selectText: 'selecteren', navigateText: 'navigeren', closeText: 'sluiten' }
+              }
+            }
+          }
+        }
       }
     },
-
+    locales: {
+      root: {
+        label: 'Nederlands',
+        selectText: 'Talen',
+        nav: [
+          { text: 'Documentatie', link: '/' },
+          { text: 'Contact', link: 'mailto:support@heurs.nl' }
+        ],
+        sidebar: nlSidebar,
+        outline: { label: 'Op deze pagina' },
+        docFooter: { prev: 'Vorige', next: 'Volgende' },
+        lastUpdated: { text: 'Laatst bijgewerkt' },
+        sidebarMenuLabel: 'Menu',
+        returnToTopLabel: 'Terug naar boven',
+        darkModeSwitchLabel: 'Thema'
+      },
+      en: {
+        label: 'English',
+        selectText: 'Languages',
+        nav: [
+          { text: 'Documentation', link: '/en/' },
+          { text: 'Contact', link: 'mailto:support@heurs.nl' }
+        ],
+        sidebar: enSidebar,
+        outline: { label: 'On this page' },
+        docFooter: { prev: 'Previous', next: 'Next' },
+        lastUpdated: { text: 'Last updated' },
+        sidebarMenuLabel: 'Menu',
+        returnToTopLabel: 'Return to top',
+        darkModeSwitchLabel: 'Theme'
+      }
+    },
     socialLinks: []
   }
 })
