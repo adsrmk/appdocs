@@ -1,0 +1,206 @@
+
+
+
+
+/* ─── Sidebar Active Button Style (Full Width) ───────────────────────── */
+
+/* De container van het actieve item */
+.VPSidebarItem.is-active > .item {
+  background-color: #206bc4 !important;
+  border-radius: 4px;                    /* Iets subtielere afronding */
+  
+  /* Geen ruimte aan de zijkanten, wel aan de bovenkant */
+  margin: 4px 0 0 0 !important; 
+  
+  /* Padding 2px kleiner gemaakt (bijv. van 4px naar 2px verticaal) */
+  padding: 0px 12px !important; 
+  
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+/* De tekst binnen het actieve item FORCEREN op wit */
+.VPSidebarItem.is-active > .item .link .text {
+  color: #ffffff !important;             /* Harde override naar wit */
+  font-weight: 600;
+}
+
+/* De indicator (het lijntje aan de zijkant) volledig verwijderen */
+.VPSidebarItem.is-active > .item > .indicator {
+  display: none !important;
+}
+
+/* Hover effect voor de actieve knop */
+.VPSidebarItem.is-active > .item:hover {
+  background-color: #3b82d0 !important;
+}
+
+
+
+
+
+.VPDocAside[data-v-3117dd8f] .spacer+.VPDocAsideSponsors, .VPDocAside[data-v-3117dd8f] .spacer+.VPDocAsideCarbonAds {
+display: none;
+}
+
+/* ─── Previous / Next Pagination ─────────────────────────────────────── */
+
+.title[data-v-9e12100f] {
+  color: #111 !important;
+}
+.VPLastUpdated + .VPPrevNext .title {
+  color: #206bc4 !important;
+  transition: color 0.25s ease;
+}
+
+.pager-link:hover {
+  border-color: #206bc4 !important;
+}
+
+.pager-link:hover .title {
+  color: #3b82d0 !important; /* Slightly lighter orange on hover */
+}
+
+
+/* Verwijder de achtergrond en border van code-tags binnen containers */
+.custom-block code {
+  background-color: transparent !important;
+  color: inherit !important; /* Neemt de kleur van de waarschuwing over (bijv. donkerrood/bruin) */
+}
+
+/* Inline code snippets (backticks in markdown) */
+:not(pre) > code {
+  background-color: rgba(188, 52, 17, 0.04) !important; /* Very light brand blue background */
+  color: #206bc4 !important;                            /* Brand blue text color */
+}
+
+
+/* Ensure the logo maintains its original aspect ratio */
+.VPNavBar .logo {
+  height: 32px !important; /* Adjust this to your preferred height */
+  width: auto !important;   /* Forces the width to scale proportionally */
+}
+
+
+/* ─── Global & Desktop Styles ─────────────────────────────────────────── */
+
+/* Indicator dots/lines for active nested sidebar items */
+.VPSidebarItem.level-2.is-active > .item > .indicator,
+.VPSidebarItem.level-3.is-active > .item > .indicator,
+.VPSidebarItem.level-4.is-active > .item > .indicator,
+.VPSidebarItem.level-5.is-active > .item > .indicator {
+  background-color: #206bc4 !important;
+}
+
+.outline-marker {
+  background-color: #111 !important;
+}
+  
+
+
+/* Top Navigation Links */
+.VPNavBarMenuLink {
+  transition: color 0.25s ease, border-color 0.25s ease;
+}
+
+.VPNavBarMenuLink:hover {
+  color: #206bc4 !important;
+}
+
+.VPNavBarMenuLink.active {
+  color: #206bc4 !important;
+  border-bottom: 2px solid #206bc4;
+}
+
+/* Sidebar Item Text & Transitions */
+.VPSidebarItem .link .text {
+  transition: color 0.2s ease, transform 0.2s ease;
+  display: inline-block;
+}
+
+.VPSidebarItem .link:hover .text {
+  color: #3b82d0 !important;
+  transform: translateX(4px);
+}
+
+
+/* ─── Mobile Specific Styles ──────────────────────────────────────────── */
+
+/* Hamburger Menu Icon (When Open) */
+.VPNavBarHamburger.active .top,
+.VPNavBarHamburger.active .middle,
+.VPNavBarHamburger.active .bottom {
+  background-color: #206bc4 !important;
+}
+
+/* Mobile Nav Screen Links (Full screen overlay) */
+.VPNavScreenMenuLink {
+  transition: color 0.2s ease;
+}
+
+.VPNavScreenMenuLink.is-active,
+.VPNavScreenMenuLink:hover {
+  color: #206bc4 !important;
+}
+
+/* Mobile Appearance/Social Toggles Active State */
+.VPNavScreen .active {
+  color: #206bc4 !important;
+}
+
+/* Mobile Sidebar Drawer Active Items */
+/* This ensures the brand color stays when the sidebar is inside the mobile drawer */
+.VPNavScreen .VPSidebarItem.is-active > .item .link > .text {
+  color: #206bc4 !important;
+}
+
+
+/* ─── 404 Page "Take me home" Button ────────────────────────────────── */
+
+.VPNotFound .action {
+  border: 2px solid #206bc4 !important; /* Brand blue border */
+  color: #206bc4 !important;           /* Brand blue text */
+  background-color: transparent !important;
+  transition: all 0.25s ease;
+  text-decoration: none !important;
+}
+
+.VPNotFound .action:hover {
+  background-color: #206bc4 !important; /* Fills with orange on hover */
+  color: #ffffff !important;           /* White text on hover */
+  border-color: #3b82d0 !important;    /* Slightly lighter orange border on hover */
+}
+
+
+
+
+:root:where(:lang(fa)) {
+  --vp-font-family-base:
+    'Vazirmatn', 'Inter', ui-sans-serif, system-ui, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+:root {
+  --vp-c-brand: #206bc4;
+    --vp-c-brand-1: #206bc4;
+    --vp-c-brand-2: #206bc4;
+    --vp-c-brand-3: #206bc4;
+  --vp-c-brand-next: #3b82d0; 
+  --vp-home-hero-name-color: transparent;
+}
+
+
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(68px);
+  }
+}
+
+
+/* used in reference/default-theme-search */
+img[src='/search.png'] {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}

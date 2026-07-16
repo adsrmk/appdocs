@@ -1,15 +1,7 @@
 # Heurs App Docs
 
-Zelfstandige, tweetalige versie van de supportomgeving uit de Heurs workforce-app.
+Tweetalige VitePress-documentatie voor de Heurs workforce-app met vaste sidebars en gekoppelde taalroutes.
 
-- Nederlands op `/`
-- English op `/en/`
-- Dezelfde vaste sidebar, categoriekaarten, zoekdialoog en artikelstructuur als `/support/`
-- Geen externe zoekdienst of runtime-afhankelijkheid
-
-## Controleren
-
-```bash
-npm test
-python3 -m http.server 4173
-```
+- Nederlands: `/workforce/` en `/organization/`
+- English: `/en-us/workforce/` en `/en-us/organization/`
+- Build: `npm run docs:build`
